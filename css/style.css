@@ -1,0 +1,92 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+
+  @import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1, h2{
+  text-align: center;
+}
+#display{
+  height: 100px;
+  width: 100%;
+  min-width: 300px;
+  max-width: 400px;
+  background: #333;
+  border-radius: 5px;
+  border: 2px dotted wheat;
+  margin: 20px auto 70px;
+}
+#name{
+  font-family: 'Sixtyfour', sans-serif;
+  color: white;
+  font-size: xx-large;
+}
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 300px;
+  width: 413px;
+  max-height: 420px;
+  margin: 0 auto 150px;
+  list-style: none;
+  padding: 0;
+}
+li{
+  width: 100px;
+  height: 100px;
+  margin: 1px;
+  border-radius: 5px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+#blue{
+  background: blue
+}
+#yellow{
+  background: yellow
+}
+#red{
+  background:red
+}
+#green{
+  background: green
+}
+#orange{
+  background: orange
+}
+#purple{
+  background:purple
+}
+#teal{
+  background: teal
+}
+#chartreuse{
+  background: chartreuse
+}
+#vermilion{
+  background: rgb(227, 66, 52)
+}
+#magenta{
+  background: Magenta
+}
+#violet{
+  background: violet
+
+}
+#amber{
+  background: rgb(255,191,0)
+}
+
